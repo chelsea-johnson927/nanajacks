@@ -1,0 +1,90 @@
+@media only screen and (max-width: 1200px) { 
+    
+    .top-bar{ display:none; }     
+
+    #bottom-bar-row{ 
+
+        position: relative;
+         z-index: 100;
+    }
+
+
+    #nav-wrap{   
+        
+        position: absolute;  
+        top:100%;  
+        z-index: 999; 
+        visibility: hidden;
+        height: 0;    
+        opacity: 0;
+        background: white;
+        box-shadow: 1px 1px 1px 0px #000;
+        transition: .4s all ease-in-out;
+    
+    } 
+
+
+.main-navigation ul {
+
+    flex-direction: column !important;
+}
+
+    #banner-image {
+        width: 100%;
+    } 
+
+    .logo-wrap {
+       
+      
+    }  
+
+    div#nav-wrap.toggleNav {  
+        
+        visibility: visible;
+        height: 100%; 
+        opacity: 1;
+        
+    }
+    
+  
+    #bottom-bar-row button{ 
+
+        display:block; 
+        position: relative;
+        float: left;
+        top: 40%;
+        background: transparent !important;
+         border: none !important;
+        margin: 20px;
+        padding: 0;
+    }   
+
+    
+    .menu-menu-1-container{  text-align: left; } 
+
+    #primary-menu li{ 
+
+        border-bottom: 1px solid #e0e0e0;
+
+    }
+    #banner-row{   
+        
+        height: 75vh;  
+        z-index: -5;
+    
+    }
+
+    #banner-content {
+        position: absolute;
+        background: rgba(0,0,0,0.5);
+        color: #fff;
+        text-align: center;
+        top: 0%;
+        padding: 100px;
+        height: 100%;
+    }
+
+
+
+
+} 
